@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Basics</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The Unconventional Calculator</h1>
+    </header>
+
+    <section id="calculator">
+      <input type="number" id="input-number" />
+      <div id="calc-actions">
+        <button type="button" id="btn-add">+</button>
+        <button type="button" id="btn-subtract">-</button>
+        <button type="button" id="btn-multiply">*</button>
+        <button type="button" id="btn-divide">/</button>
+      </div>
+    </section>
+    <div class="all-numbers">
+      <div class="button1-3">
+        <button data-number="1" style="border-radius: 360px; border: 1px solid black" id="btn-1">1</button>
+        <button style="border-radius: 360px; border: 1px solid black">2</button>
+        <button style="border-radius: 360px; border: 1px solid black">3</button>
+      </div>
+
+      <div class="button4-6">
+        <button style="border-radius: 360px; border: 1px solid black">4</button>
+        <button style="border-radius: 360px; border: 1px solid black">5</button>
+        <button style="border-radius: 360px; border: 1px solid black">6</button>
+        
+      </div>
+
+      <div class="button7-9">
+        <button  style="border-radius: 360px; border: 1px solid black">7</button>
+        <button  style="border-radius: 360px; border: 1px solid black">8</button>
+        <button  style="border-radius: 360px; border: 1px solid black">9</button>
+      </div>
+      <div class="button-0" ><button style="border-radius: 360px; border: 1px solid black">0</button></div>
+    </div>
+    <section id="results">
+      <h2 id="current-calculation">0</h2>
+      <h2>Result: <span id="current-result">0</span></h2>
+    </section>
+    <script src="./assets/scripts/vendor.js"></script>
+    <script src="./assets/scripts/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'poppins', sans-serif;
+  
+}
+
+body {
+  margin: 0;
+}
+
+h2{
+  font-family: 'poppins', sans-serif;
+}
+
+header {
+  background: lightgray;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(174, 165, 165, 0.26);
+  width: 100%;
+}
+
+#results,
+#calculator {
+  margin: 0px 365px;
+  width: 40rem;
+  max-width: 90%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+  color: gray;
+}
+
+#results {
+  text-align: center;
+}
+
+#calculator input {
+  font: inherit;
+  font-size: 3rem;
+  border: 2px solid gray;
+  width: 10rem;
+  padding: 0.15rem;
+  margin: auto;
+  display: block;
+  color: gray;
+  text-align: center;
+}
+
+#calculator input:focus {
+  outline: none;
+}
+
+#calculator button {
+  font: inherit;
+  background: gray;
+  color: white;
+  border: 1px solid gray;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#calculator button:focus {
+  outline: none;
+}
+
+#calculator button:hover,
+#calculator button:active {
+  background: gray;
+  border-color: gray;
+}
+
+#calc-actions button {
+  width: 60px;
+  height: 60px;
+  border-radius: 360px;
+}
+
+#calc-actions {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.all-numbers{
+    border-radius: 360px;
+    margin-left: 626px;
+}
+
+.button-0{
+  margin-left: 25px;
+  border-radius: 360px;
+}
